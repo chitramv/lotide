@@ -20,11 +20,11 @@ const assertArrayEqual = function(actual, expected) {
 // return a map of array based on the function
 const words = ["ground", "control", "to", "major", "tom"];
 const map = function(array,callback) {
-let output = [];
-for (let item of array) {
-  output.push(callback(item));
-}
-return output;
+  let output = [];
+  for (let item of array) {
+    output.push(callback(item));
+  }
+  return output;
 }
 const results1 = map(words, word => word[0]);
 console.log(results1);
