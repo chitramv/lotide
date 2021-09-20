@@ -1,8 +1,4 @@
-// Eq array function
-const eqArrays = require('./eqArrays');
-// Assert array equal function
-const assertArrayEqual = require('./assertArraysEqual');
-  // Middle function
+// Middle function
 const middle = function(array) {
   let middlevalue =[];
   if(array.length <= 2) return middlevalue;
