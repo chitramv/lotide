@@ -17,3 +17,5 @@ const assertEqual = function(actual, expected) {
  };
  // test
  console.log(countLetters("lighthouse in the house"));
+
+ module.exports = countLetters;

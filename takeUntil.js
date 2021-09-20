@@ -24,6 +24,8 @@ const takeUntil = function(array, callback) {
   }
   return result;
 }
+
+module.exports = takeUntil;
 // Test
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 console.log(assertArrayEqual(takeUntil(data1, x => x < 0),[1,2,5,7,2]));

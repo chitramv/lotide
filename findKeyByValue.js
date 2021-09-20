@@ -13,6 +13,8 @@ const assertEqual = function(actual, expected) {
      }
  };
 
+ module.exports = findKeyByValue;
+
 
  // test
  const bestTVShowsByGenre = {

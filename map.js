@@ -26,6 +26,8 @@ const map = function(array,callback) {
   }
   return output;
 }
+
+module.exports = map;
 const results1 = map(words, word => word[0]);
 console.log(results1);
 assertArrayEqual(map(['word','sentence','phrases'],item => item[0]),['w','s','p']);
